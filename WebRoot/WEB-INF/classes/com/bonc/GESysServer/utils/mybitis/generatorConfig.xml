@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+	<classPathEntry location="E:/gx/mywork/GESysServer/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" />
+  <context id="GESysServer" >
+  	
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/gesysServer" userId="test" password="123456" />
+    
+    <!-- javaModelGenerator是模型的生成信息，这里将指定这些Java model类的生成路径-->
+    <javaModelGenerator targetPackage="com.bonc.GESysServer.mybitis.model" targetProject="E:/mybitisgenerator" />
+    <!-- sqlMapGenerator是mybatis 的sqlMapper XML文件的生成信息，包括生成路径等；-->
+    <sqlMapGenerator targetPackage="resources.mybitis.mapperXML" targetProject="E:/mybitisgenerator" />
+    <!-- javaClientGenerator是应用接口的生成信息； -->
+    <javaClientGenerator targetPackage="com.bonc.GESysServer.mybitis.mapper" targetProject="E:/mybitisgenerator" type="XMLMAPPER" />
+    
+    <table schema="gesysserver" tableName="sys_login_log" domainObjectName="SysLoginLog">
+      <columnOverride column="flow_id" property="flowId" />
+      <columnOverride column="manager_account" property="managerAccount" />
+      <columnOverride column="manager_name" property="managerName"/>
+      <columnOverride column="login_msg" property="loginMsg" />
+      <columnOverride column="login_ip" property="loginIp" />
+      <columnOverride column="operate_time" property="operateTime" javaType="java.sql.Timestamp"/>
+    </table>
+    <table schema="gesysserver" tableName="sys_manager_role" domainObjectName="SysManagerRole">
+      <columnOverride column="manager_account" property="managerAccount" />
+      <columnOverride column="role_id" property="roleId" />
+    </table>
+    <table schema="gesysserver" tableName="sys_manger_info" domainObjectName="SysMangerInfo">
+      <columnOverride column="manager_account" property="managerAccount" />
+      <columnOverride column="manager_name" property="managerName" />
+      <columnOverride column="manager_pwd" property="managerPwd" />
+      <columnOverride column="manager_mobile" property="managerMobile" />
+      <columnOverride column="manager_email" property="managerEmail" />
+      <columnOverride column="create_time" property="createTime" javaType="java.sql.Timestamp" />
+      <columnOverride column="status" property="status" />
+      <columnOverride column="last_login_time" property="last_login_time" javaType="java.sql.Timestamp" />
+    </table>
+    <table schema="gesysserver" tableName="sys_menu_info" domainObjectName="SysMenuInfo">
+      <columnOverride column="menu_id" property="menuId" />
+      <columnOverride column="menu_name" property="menuName" />
+      <columnOverride column="menu_path" property="menuPath" />
+      <columnOverride column="parent_menu_id" property="parentMenuId" />
+      <columnOverride column="create_user_id" property="createUserId" />
+      <columnOverride column="status" property="status" />
+      <columnOverride column="creat_time" property="creatTime" javaType="java.sql.Timestamp" />
+    </table>
+    
+    <table schema="gesysserver" tableName="sys_menu_role" domainObjectName="SysMenuRole">
+      <columnOverride column="role_id" property="roleId" />
+      <columnOverride column="menu_id" property="menuId" />
+      <columnOverride column="create_time" property="createTime" />
+      <columnOverride column="auth_operate" property="authOperate" />
+    </table>
+    
+    <table schema="gesysserver" tableName="sys_operate_log" domainObjectName="SysOperateLog">
+      <columnOverride column="flow_id" property="flowId" />
+      <columnOverride column="manager_id" property="managerId" />
+      <columnOverride column="manager_name" property="managerName" />
+      <columnOverride column="operate_name" property="operateName" />
+      <columnOverride column="operate_time" property="operateTime" javaType="java.sql.Timestamp" />
+      <columnOverride column="operate_msg" property="operateMsg" />
+    </table>
+    
+    <table schema="gesysserver" tableName="sys_role" domainObjectName="SysRole">
+      <columnOverride column="role_id" property="roleId" />
+      <columnOverride column="role_name" property="roleName" />
+      <columnOverride column="status" property="status" />
+      <columnOverride column="create_time" property="createTime" javaType="java.sql.Timestamp"/>
+    </table>
+    
+    <table schema="gesysserver" tableName="area_info" domainObjectName="AreaInfo">
+   		<columnOverride column="area_id" property="areaId" />
+   		<columnOverride column="area_name" property="areaName" />
+   		<columnOverride column="parent_area_id" property="parentAreaId" />
+   		<columnOverride column="area_level" property="areaLevel" />
+   		<columnOverride column="area_order" property="areaOrder" />
+      	<columnOverride column="status" property="status" />
+    </table>
+    
+    <table schema="gesysserver" tableName="group_role" domainObjectName="GroupRole">
+		<columnOverride column="id" property="id" />
+		<columnOverride column="role_id" property="roleId" />
+		<columnOverride column="id_type" property="idType" />
+		<columnOverride column="start_time" property="startTime" javaType="java.sql.Timestamp"/>
+		<columnOverride column="end_time" property="endTime" javaType="java.sql.Timestamp"/>
+		<columnOverride column="update_time" property="updateTime" javaType="java.sql.Timestamp"/>
+      	<columnOverride column="operator" property="operator" javaType="java.sql.Timestamp"/>
+	</table>
+	
+    <table schema="gesysserver" tableName="menu_info" domainObjectName="MenuInfo">
+    	<columnOverride column="menu_id" property="menuId" />
+    	<columnOverride column="menu_name" property="menuName" />
+    	<columnOverride column="menu_level" property="menuLevel" />
+    	<columnOverride column="menu_order" property="menuOrder" />
+    	<columnOverride column="menu_desc" property="menuDesc" />
+    	<columnOverride column="parent_menu_id" property="parentMenuId" />
+    	<columnOverride column="status" property="status"/>
+    	<columnOverride column="create_time" property="createTime" javaType="java.sql.Timestamp"/>
+    </table>
+    
+    <table schema="gesysserver" tableName="role_resource" domainObjectName="RoleResource">
+    	<columnOverride column="role_id" property="roleId" />
+    	<columnOverride column="resource_id" property="resourceId" />
+    	<columnOverride column="resource_type" property="resourceType" />
+    </table>
+    
+    <table schema="gesysserver" tableName="user_group" domainObjectName="UserGroup">
+      	<columnOverride column="group_id" property="groupId" />
+      	<columnOverride column="group_name" property="groupName" />
+      	<columnOverride column="status" property="status" />
+    </table>
+    
+    <table schema="gesysserver" tableName="user_group_member" domainObjectName="UserGroupMember">
+      	<columnOverride column="group_id" property="groupId" />
+     	<columnOverride column="user_id" property="userId" />
+    </table>
+    
+    <table schema="gesysserver" tableName="user_info" domainObjectName="UserInfo">
+    	<columnOverride column="user_id" property="userId" />
+    	<columnOverride column="user_name" property="userName" />
+    	<columnOverride column="user_area_code" property="userAreaCode" />
+    	<columnOverride column="user_mobile" property="userMobile" />
+    	<columnOverride column="login_pwd" property="loginPwd" />
+    	<columnOverride column="status" property="status" />
+    	<columnOverride column="authority_time" property="authorityTime" javaType="java.sql.Timestamp"/>
+    	<columnOverride column="update_time" property="updateTime" javaType="java.sql.Timestamp"/>
+    	<columnOverride column="operator" property="operator" />
+    	<columnOverride column="create_time" property="createTime" javaType="java.sql.Timestamp"/>
+    	<columnOverride column="last_login_time" property="lastLoginTime" javaType="java.sql.Timestamp"/>
+    </table>
+    
+    <table schema="gesysserver" tableName="user_login_log" domainObjectName="UserLoginLog">
+    	<columnOverride column="flow_id" property="flowId" />
+    	<columnOverride column="user_id" property="userId" />
+    	<columnOverride column="user_name" property="userName" />
+    	<columnOverride column="login_msg" property="loginMsg" />
+    	<columnOverride column="login_ip" property="loginIp" />
+    	<columnOverride column="operate_time" property="operateTime" javaType="java.sql.Timestamp"/>
+    </table>
+    
+    <table schema="gesysserver" tableName="user_operate_log" domainObjectName="UserOperateLog">
+    	<columnOverride column="flow_id" property="flowId" />
+    	<columnOverride column="user_id" property="userId" />
+    	<columnOverride column="user_name" property="userName" />
+    	<columnOverride column="operate_name" property="operateName" />
+    	<columnOverride column="operate_time" property="operateTime" javaType="java.sql.Timestamp"/>
+    	<columnOverride column="operate_msg" property="operateMsg" />
+    </table>
+    
+    <table schema="gesysserver" tableName="user_resource" domainObjectName="UserResource">
+    	<columnOverride column="resource_id" property="resourceId" />
+    	<columnOverride column="resource_name" property="resourceName" />
+    	<columnOverride column="resource_value" property="resourceValue" />
+    	<columnOverride column="resource_type" property="resourceType" />
+    	<columnOverride column="status" property="status" />
+    	<columnOverride column="create_time" property="createTime" javaType="java.sql.Timestamp"/>
+    	<columnOverride column="update_time" property="updateTime" javaType="java.sql.Timestamp"/>
+    	<columnOverride column="operator" property="operator" />
+    </table>
+    
+    <table schema="gesysserver" tableName="user_role" domainObjectName="UserRole">
+  		<columnOverride column="role_id" property="roleId" />
+ 		<columnOverride column="role_name" property="roleName" />
+ 		<columnOverride column="role_type" property="roleType" />
+ 		<columnOverride column="status" property="status" />
+ 		<columnOverride column="create_time" property="createTime" javaType="java.sql.Timestamp"/>
+    </table>
+  </context>
+</generatorConfiguration>

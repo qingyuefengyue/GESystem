@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"    
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+	xmlns:p="http://www.springframework.org/schema/p"    
+	xmlns:mvc="http://www.springframework.org/schema/mvc"    
+	xmlns:context="http://www.springframework.org/schema/context"    
+	xmlns:util="http://www.springframework.org/schema/util"  
+	xmlns:aop="http://www.springframework.org/schema/aop" 
+	xmlns:tx="http://www.springframework.org/schema/tx"  
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd    
+	    http://www.springframework.org/schema/context 
+	    http://www.springframework.org/schema/context/spring-context-3.0.xsd    
+	    http://www.springframework.org/schema/mvc 
+	    http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd    
+	    http://www.springframework.org/schema/util 
+	    http://www.springframework.org/schema/util/spring-util-3.0.xsd
+	    http://www.springframework.org/schema/tx 
+	    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd 
+		http://www.springframework.org/schema/aop  
+		http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">	
+	<!-- 拦截器 配置指定路径的拦截器 -->
+	<mvc:interceptors>
+			<mvc:interceptor>
+				<mvc:mapping path="/userController/*"/>
+				<bean class="com.bonc.GESysServer.interceptor.UserLoginInterceptor"></bean>
+			</mvc:interceptor>
+	</mvc:interceptors>
+	<!-- 配置通过注解，把一个URL映射到Controller类上 ↓ -->
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" >
+		<!-- 默认全局拦截器  list 为拦截器列表-->
+		<!--
+		<property name="interceptors">
+			
+			<list>
+				<bean class="com.bonc.GESysServer.interceptor.UserLoginInterceptor"/>
+			</list>
+		</property>
+		-->	
+	</bean>
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
+	
+	<!-- 将指定URL 的匹配模式来访问静态文件 ↓ -->	
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources/ directory -->
+	<mvc:resources mapping="/resources/**" location="classpath:/resources/" cache-period="0" />
+	
+	<!-- 将指定路径的请求直接转到对应的view上，而不需要特定的controller来处理请求 ↓ -->
+	<mvc:view-controller path="/" view-name="welcome" />
+	
+	<!-- 扫描指定的包中的类上的注解 ↓-->
+	<context:component-scan base-package="com.bonc.GESysServer"/>
+	
+	<!-- 声明自动为spring容器切面的bean创建代理，织入切面 ,poxy-target-class默认为false 使用jdk动态代理 ↓-->
+	<aop:aspectj-autoproxy />
+	
+	<!--对模型视图名称的解析 ↓-->
+	<!-- 配置jsp viewResolver ↓ p:allowSessionOverride="true" 覆盖session-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:allowSessionOverride="true" >
+         <!-- 如果使用jstl的话，配置下面的属性  p:prefix="/jsp/" p:suffix=".jsp"-->
+        <property name="prefix" value="/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+        <property name="contentType" value="text/html;charset=utf-8" />
+    	<property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />    
+    </bean>
+	
+    <!-- 配置ehCache -->
+    <bean id="defaultCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+    	<!-- 配置加载ehCache xml路径 -->
+		<property name="configLocation" value="classpath:/resources/datasource/ehcache.xml"/>
+	</bean>
+	
+	<!-- 定义 ehCache 的工厂，并设置所使用的 Cache name  -->
+    <bean id="ehCache" class="org.springframework.cache.ehcache.EhCacheFactoryBean">
+		<property name="cacheManager">
+			<ref local="defaultCacheManager"/>
+		</property>
+		<property name="cacheName">
+			<value>com.bonc.GESysServer.dbCache</value>
+		</property>
+	</bean>
+	
+	
+	
+	<!-- 配置方法拦截器 暂时废弃 尝试采用注解 -->
+    <!-- find/create cache  查询方法的拦截器 -->
+	<!-- bean id="methodCacheInterceptor" class="com.bonc.GESysServer.interceptor.MethodCacheInterceptor">
+		<property name="cache">
+			<ref local="ehCache" />
+		</property>
+	</bean -->
+	<!-- flush cache 当有更新或者删除操作时更新cache拦截器 -->
+	<!--  bean id="methodCacheAfterAdvice" class="com.bonc.GESysServer.interceptor.MethodCacheAfterAdvice">
+			<property name="cache">
+			<ref local="ehCache" />
+		</property>
+	</bean -->
+	
+	<!-- 配置切面 方法-->
+	<!-- bean id="methodCachePointCut" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="advice">
+			<ref local="methodCacheInterceptor"/>
+		</property>
+		<property name="patterns">
+			<list>
+				<value>.*find.*</value>
+				<value>.*get.*</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="methodCachePointCutAdvice" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+		<property name="advice">
+			<ref local="methodCacheAfterAdvice"/>
+		</property>
+		<property name="patterns">
+			<list>
+				<value>.*create.*</value>
+				<value>.*update.*</value>
+				<value>.*delete.*</value>
+			</list>
+		</property>
+	</bean -->
+	
+</beans>

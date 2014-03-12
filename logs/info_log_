@@ -1,0 +1,342 @@
+2013-10-30 22:11:32,364 [ main:136 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:11:32 CST 2013]; root of context hierarchy
+2013-10-30 22:11:32,559 [ main:331 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:11:33,140 [ main:912 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:11:33,500 [ main:1272 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:11:33,568 [ main:1340 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@290e1513: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate]; root of factory hierarchy
+2013-10-30 22:11:58,037 [ main:36 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:11:58 CST 2013]; root of context hierarchy
+2013-10-30 22:11:58,168 [ main:167 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:11:58,393 [ main:392 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:11:58,680 [ main:679 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:11:58,734 [ main:733 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5c001eb0: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate]; root of factory hierarchy
+2013-10-30 22:12:18,177 [ main:42 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:12:18 CST 2013]; root of context hierarchy
+2013-10-30 22:12:18,337 [ main:202 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:12:18,572 [ main:437 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:12:18,868 [ main:733 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:12:18,925 [ main:790 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@290e1513: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate]; root of factory hierarchy
+2013-10-30 22:15:03,356 [ main:15 ] - [ INFO ]  @ContextConfiguration not found for class [class com.bonc.GESysServer.controller.UserControllerTest]
+2013-10-30 22:15:03,359 [ main:18 ] - [ INFO ]  @TestExecutionListeners is not present for class [class com.bonc.GESysServer.controller.UserControllerTest]: using defaults.
+2013-10-30 22:15:03,556 [ main:215 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:15:03 CST 2013]; root of context hierarchy
+2013-10-30 22:15:03,656 [ main:315 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:15:03,874 [ main:533 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:15:04,161 [ main:820 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:15:04,212 [ main:871 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@fba0f36: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate]; root of factory hierarchy
+2013-10-30 22:15:52,661 [ main:35 ] - [ INFO ]  @ContextConfiguration not found for class [class com.bonc.GESysServer.controller.UserControllerTest]
+2013-10-30 22:15:52,670 [ main:44 ] - [ INFO ]  @TestExecutionListeners is not present for class [class com.bonc.GESysServer.controller.UserControllerTest]: using defaults.
+2013-10-30 22:15:52,883 [ main:257 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:15:52 CST 2013]; root of context hierarchy
+2013-10-30 22:15:53,008 [ main:382 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:15:53,245 [ main:619 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:15:53,577 [ main:951 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:15:53,643 [ main:1017 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@61b59919: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate]; root of factory hierarchy
+2013-10-30 22:17:57,158 [ main:21 ] - [ INFO ]  @ContextConfiguration not found for class [class com.bonc.GESysServer.controller.UserControllerTest]
+2013-10-30 22:17:57,162 [ main:25 ] - [ INFO ]  @TestExecutionListeners is not present for class [class com.bonc.GESysServer.controller.UserControllerTest]: using defaults.
+2013-10-30 22:17:57,361 [ main:224 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:17:57 CST 2013]; root of context hierarchy
+2013-10-30 22:17:57,470 [ main:333 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:17:57,727 [ main:590 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:17:57,844 [ main:707 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\spring_config.xml]
+2013-10-30 22:17:58,681 [ main:1544 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:17:59,100 [ main:1963 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7eb5666: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 22:18:01,229 [ main:4092 ] - [ INFO ]  Mapped URL path [/error/404] onto handler 'exceptionController'
+2013-10-30 22:18:01,230 [ main:4093 ] - [ INFO ]  Mapped URL path [/error/404.*] onto handler 'exceptionController'
+2013-10-30 22:18:01,231 [ main:4094 ] - [ INFO ]  Mapped URL path [/error/404/] onto handler 'exceptionController'
+2013-10-30 22:18:01,232 [ main:4095 ] - [ INFO ]  Mapped URL path [/error/500] onto handler 'exceptionController'
+2013-10-30 22:18:01,233 [ main:4096 ] - [ INFO ]  Mapped URL path [/error/500.*] onto handler 'exceptionController'
+2013-10-30 22:18:01,233 [ main:4096 ] - [ INFO ]  Mapped URL path [/error/500/] onto handler 'exceptionController'
+2013-10-30 22:18:01,234 [ main:4097 ] - [ INFO ]  Mapped URL path [/error/405] onto handler 'exceptionController'
+2013-10-30 22:18:01,235 [ main:4098 ] - [ INFO ]  Mapped URL path [/error/405.*] onto handler 'exceptionController'
+2013-10-30 22:18:01,235 [ main:4098 ] - [ INFO ]  Mapped URL path [/error/405/] onto handler 'exceptionController'
+2013-10-30 22:18:01,568 [ main:4431 ] - [ INFO ]  Mapped URL path [/login] onto handler 'userController'
+2013-10-30 22:18:01,569 [ main:4432 ] - [ INFO ]  Mapped URL path [/login.*] onto handler 'userController'
+2013-10-30 22:18:01,569 [ main:4432 ] - [ INFO ]  Mapped URL path [/login/] onto handler 'userController'
+2013-10-30 22:18:01,570 [ main:4433 ] - [ INFO ]  Mapped URL path [/reg] onto handler 'userController'
+2013-10-30 22:18:01,570 [ main:4433 ] - [ INFO ]  Mapped URL path [/reg.*] onto handler 'userController'
+2013-10-30 22:18:01,571 [ main:4434 ] - [ INFO ]  Mapped URL path [/reg/] onto handler 'userController'
+2013-10-30 22:18:01,571 [ main:4434 ] - [ INFO ]  Mapped URL path [/loginIndex] onto handler 'userController'
+2013-10-30 22:18:01,573 [ main:4436 ] - [ INFO ]  Mapped URL path [/loginIndex.*] onto handler 'userController'
+2013-10-30 22:18:01,573 [ main:4436 ] - [ INFO ]  Mapped URL path [/loginIndex/] onto handler 'userController'
+2013-10-30 22:18:01,575 [ main:4438 ] - [ INFO ]  Mapped URL path [/testJson] onto handler 'userController'
+2013-10-30 22:18:01,576 [ main:4439 ] - [ INFO ]  Mapped URL path [/testJson.*] onto handler 'userController'
+2013-10-30 22:18:01,577 [ main:4440 ] - [ INFO ]  Mapped URL path [/testJson/] onto handler 'userController'
+2013-10-30 22:18:04,469 [ main:7332 ] - [ INFO ]  Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2013-10-30 22:18:04,554 [ main:7417 ] - [ INFO ]  Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2013-10-30 22:18:04,582 [ main:7445 ] - [ INFO ]  Initializing EHCache CacheManager
+2013-10-30 22:18:05,331 [ main:8194 ] - [ INFO ]  Loading properties file from class path resource [freemarker.properties]
+2013-10-30 22:18:05,670 [ main:8533 ] - [ INFO ]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2013-10-30 22:18:05,845 [ main:8708 ] - [ ERROR ]  Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@22343bb6] to prepare test instance [com.bonc.GESysServer.controller.UserControllerTest@c4a3158]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:157)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:211)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:288)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:290)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.IllegalArgumentException: Can not load an ApplicationContext with a NULL 'contextLoader'. Consider annotating your test class with @ContextConfiguration.
+	at org.springframework.util.Assert.notNull(Assert.java:112)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:117)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:148)
+	... 25 more
+2013-10-30 22:18:39,229 [ main:37 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:18:39 CST 2013]; root of context hierarchy
+2013-10-30 22:18:39,404 [ main:212 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:18:39,700 [ main:508 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:18:39,878 [ main:686 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\spring_config.xml]
+2013-10-30 22:18:40,571 [ main:1379 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:18:40,730 [ main:1538 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9be1041: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 22:18:42,342 [ main:3150 ] - [ INFO ]  Mapped URL path [/error/404] onto handler 'exceptionController'
+2013-10-30 22:18:42,343 [ main:3151 ] - [ INFO ]  Mapped URL path [/error/404.*] onto handler 'exceptionController'
+2013-10-30 22:18:42,344 [ main:3152 ] - [ INFO ]  Mapped URL path [/error/404/] onto handler 'exceptionController'
+2013-10-30 22:18:42,345 [ main:3153 ] - [ INFO ]  Mapped URL path [/error/500] onto handler 'exceptionController'
+2013-10-30 22:18:42,346 [ main:3154 ] - [ INFO ]  Mapped URL path [/error/500.*] onto handler 'exceptionController'
+2013-10-30 22:18:42,347 [ main:3155 ] - [ INFO ]  Mapped URL path [/error/500/] onto handler 'exceptionController'
+2013-10-30 22:18:42,348 [ main:3156 ] - [ INFO ]  Mapped URL path [/error/405] onto handler 'exceptionController'
+2013-10-30 22:18:42,349 [ main:3157 ] - [ INFO ]  Mapped URL path [/error/405.*] onto handler 'exceptionController'
+2013-10-30 22:18:42,350 [ main:3158 ] - [ INFO ]  Mapped URL path [/error/405/] onto handler 'exceptionController'
+2013-10-30 22:18:42,742 [ main:3550 ] - [ INFO ]  Mapped URL path [/login] onto handler 'userController'
+2013-10-30 22:18:42,742 [ main:3550 ] - [ INFO ]  Mapped URL path [/login.*] onto handler 'userController'
+2013-10-30 22:18:42,743 [ main:3551 ] - [ INFO ]  Mapped URL path [/login/] onto handler 'userController'
+2013-10-30 22:18:42,744 [ main:3552 ] - [ INFO ]  Mapped URL path [/reg] onto handler 'userController'
+2013-10-30 22:18:42,745 [ main:3553 ] - [ INFO ]  Mapped URL path [/reg.*] onto handler 'userController'
+2013-10-30 22:18:42,745 [ main:3553 ] - [ INFO ]  Mapped URL path [/reg/] onto handler 'userController'
+2013-10-30 22:18:42,746 [ main:3554 ] - [ INFO ]  Mapped URL path [/loginIndex] onto handler 'userController'
+2013-10-30 22:18:42,747 [ main:3555 ] - [ INFO ]  Mapped URL path [/loginIndex.*] onto handler 'userController'
+2013-10-30 22:18:42,747 [ main:3555 ] - [ INFO ]  Mapped URL path [/loginIndex/] onto handler 'userController'
+2013-10-30 22:18:42,748 [ main:3556 ] - [ INFO ]  Mapped URL path [/testJson] onto handler 'userController'
+2013-10-30 22:18:42,749 [ main:3557 ] - [ INFO ]  Mapped URL path [/testJson.*] onto handler 'userController'
+2013-10-30 22:18:42,749 [ main:3557 ] - [ INFO ]  Mapped URL path [/testJson/] onto handler 'userController'
+2013-10-30 22:18:43,004 [ main:3812 ] - [ INFO ]  Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2013-10-30 22:18:43,111 [ main:3919 ] - [ INFO ]  Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2013-10-30 22:18:43,154 [ main:3962 ] - [ INFO ]  Initializing EHCache CacheManager
+2013-10-30 22:18:43,767 [ main:4575 ] - [ INFO ]  Loading properties file from class path resource [freemarker.properties]
+2013-10-30 22:18:43,963 [ main:4771 ] - [ INFO ]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2013-10-30 22:18:44,237 [ main:5045 ] - [ INFO ]  user=张三pass=123456
+2013-10-30 22:18:44,237 [ main:5045 ] - [ INFO ]  用户登陆。。。
+2013-10-30 22:19:49,144 [ main:38 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:19:49 CST 2013]; root of context hierarchy
+2013-10-30 22:19:49,267 [ main:161 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:19:49,500 [ main:394 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:19:49,658 [ main:552 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\spring_config.xml]
+2013-10-30 22:19:50,222 [ main:1116 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:19:50,340 [ main:1234 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4a738d08: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 22:19:51,397 [ main:2291 ] - [ INFO ]  Mapped URL path [/error/404] onto handler 'exceptionController'
+2013-10-30 22:19:51,398 [ main:2292 ] - [ INFO ]  Mapped URL path [/error/404.*] onto handler 'exceptionController'
+2013-10-30 22:19:51,398 [ main:2292 ] - [ INFO ]  Mapped URL path [/error/404/] onto handler 'exceptionController'
+2013-10-30 22:19:51,399 [ main:2293 ] - [ INFO ]  Mapped URL path [/error/500] onto handler 'exceptionController'
+2013-10-30 22:19:51,400 [ main:2294 ] - [ INFO ]  Mapped URL path [/error/500.*] onto handler 'exceptionController'
+2013-10-30 22:19:51,400 [ main:2294 ] - [ INFO ]  Mapped URL path [/error/500/] onto handler 'exceptionController'
+2013-10-30 22:19:51,401 [ main:2295 ] - [ INFO ]  Mapped URL path [/error/405] onto handler 'exceptionController'
+2013-10-30 22:19:51,402 [ main:2296 ] - [ INFO ]  Mapped URL path [/error/405.*] onto handler 'exceptionController'
+2013-10-30 22:19:51,403 [ main:2297 ] - [ INFO ]  Mapped URL path [/error/405/] onto handler 'exceptionController'
+2013-10-30 22:19:51,731 [ main:2625 ] - [ INFO ]  Mapped URL path [/login] onto handler 'userController'
+2013-10-30 22:19:51,731 [ main:2625 ] - [ INFO ]  Mapped URL path [/login.*] onto handler 'userController'
+2013-10-30 22:19:51,731 [ main:2625 ] - [ INFO ]  Mapped URL path [/login/] onto handler 'userController'
+2013-10-30 22:19:51,732 [ main:2626 ] - [ INFO ]  Mapped URL path [/reg] onto handler 'userController'
+2013-10-30 22:19:51,732 [ main:2626 ] - [ INFO ]  Mapped URL path [/reg.*] onto handler 'userController'
+2013-10-30 22:19:51,733 [ main:2627 ] - [ INFO ]  Mapped URL path [/reg/] onto handler 'userController'
+2013-10-30 22:19:51,733 [ main:2627 ] - [ INFO ]  Mapped URL path [/loginIndex] onto handler 'userController'
+2013-10-30 22:19:51,734 [ main:2628 ] - [ INFO ]  Mapped URL path [/loginIndex.*] onto handler 'userController'
+2013-10-30 22:19:51,734 [ main:2628 ] - [ INFO ]  Mapped URL path [/loginIndex/] onto handler 'userController'
+2013-10-30 22:19:51,735 [ main:2629 ] - [ INFO ]  Mapped URL path [/testJson] onto handler 'userController'
+2013-10-30 22:19:51,735 [ main:2629 ] - [ INFO ]  Mapped URL path [/testJson.*] onto handler 'userController'
+2013-10-30 22:19:51,736 [ main:2630 ] - [ INFO ]  Mapped URL path [/testJson/] onto handler 'userController'
+2013-10-30 22:19:51,933 [ main:2827 ] - [ INFO ]  Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2013-10-30 22:19:52,013 [ main:2907 ] - [ INFO ]  Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2013-10-30 22:19:52,038 [ main:2932 ] - [ INFO ]  Initializing EHCache CacheManager
+2013-10-30 22:19:52,569 [ main:3463 ] - [ INFO ]  Loading properties file from class path resource [freemarker.properties]
+2013-10-30 22:19:52,749 [ main:3643 ] - [ INFO ]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2013-10-30 22:19:52,989 [ main:3883 ] - [ INFO ]  user=张三pass=123456
+2013-10-30 22:19:52,989 [ main:3883 ] - [ INFO ]  用户登陆。。。
+2013-10-30 22:20:07,474 [ main:36 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:20:07 CST 2013]; root of context hierarchy
+2013-10-30 22:20:07,628 [ main:190 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:20:07,875 [ main:437 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:20:08,053 [ main:615 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\spring_config.xml]
+2013-10-30 22:20:08,747 [ main:1309 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:20:08,896 [ main:1458 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7fcc5461: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 22:20:10,140 [ main:2702 ] - [ INFO ]  Mapped URL path [/error/404] onto handler 'exceptionController'
+2013-10-30 22:20:10,142 [ main:2704 ] - [ INFO ]  Mapped URL path [/error/404.*] onto handler 'exceptionController'
+2013-10-30 22:20:10,142 [ main:2704 ] - [ INFO ]  Mapped URL path [/error/404/] onto handler 'exceptionController'
+2013-10-30 22:20:10,143 [ main:2705 ] - [ INFO ]  Mapped URL path [/error/500] onto handler 'exceptionController'
+2013-10-30 22:20:10,145 [ main:2707 ] - [ INFO ]  Mapped URL path [/error/500.*] onto handler 'exceptionController'
+2013-10-30 22:20:10,146 [ main:2708 ] - [ INFO ]  Mapped URL path [/error/500/] onto handler 'exceptionController'
+2013-10-30 22:20:10,146 [ main:2708 ] - [ INFO ]  Mapped URL path [/error/405] onto handler 'exceptionController'
+2013-10-30 22:20:10,147 [ main:2709 ] - [ INFO ]  Mapped URL path [/error/405.*] onto handler 'exceptionController'
+2013-10-30 22:20:10,147 [ main:2709 ] - [ INFO ]  Mapped URL path [/error/405/] onto handler 'exceptionController'
+2013-10-30 22:20:10,531 [ main:3093 ] - [ INFO ]  Mapped URL path [/login] onto handler 'userController'
+2013-10-30 22:20:10,531 [ main:3093 ] - [ INFO ]  Mapped URL path [/login.*] onto handler 'userController'
+2013-10-30 22:20:10,532 [ main:3094 ] - [ INFO ]  Mapped URL path [/login/] onto handler 'userController'
+2013-10-30 22:20:10,533 [ main:3095 ] - [ INFO ]  Mapped URL path [/reg] onto handler 'userController'
+2013-10-30 22:20:10,534 [ main:3096 ] - [ INFO ]  Mapped URL path [/reg.*] onto handler 'userController'
+2013-10-30 22:20:10,535 [ main:3097 ] - [ INFO ]  Mapped URL path [/reg/] onto handler 'userController'
+2013-10-30 22:20:10,535 [ main:3097 ] - [ INFO ]  Mapped URL path [/loginIndex] onto handler 'userController'
+2013-10-30 22:20:10,536 [ main:3098 ] - [ INFO ]  Mapped URL path [/loginIndex.*] onto handler 'userController'
+2013-10-30 22:20:10,537 [ main:3099 ] - [ INFO ]  Mapped URL path [/loginIndex/] onto handler 'userController'
+2013-10-30 22:20:10,537 [ main:3099 ] - [ INFO ]  Mapped URL path [/testJson] onto handler 'userController'
+2013-10-30 22:20:10,538 [ main:3100 ] - [ INFO ]  Mapped URL path [/testJson.*] onto handler 'userController'
+2013-10-30 22:20:10,539 [ main:3101 ] - [ INFO ]  Mapped URL path [/testJson/] onto handler 'userController'
+2013-10-30 22:20:10,812 [ main:3374 ] - [ INFO ]  Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2013-10-30 22:20:10,908 [ main:3470 ] - [ INFO ]  Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2013-10-30 22:20:10,945 [ main:3507 ] - [ INFO ]  Initializing EHCache CacheManager
+2013-10-30 22:20:11,502 [ main:4064 ] - [ INFO ]  Loading properties file from class path resource [freemarker.properties]
+2013-10-30 22:20:11,746 [ main:4308 ] - [ INFO ]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2013-10-30 22:20:11,981 [ main:4543 ] - [ INFO ]  user=张三pass=123456
+2013-10-30 22:20:11,982 [ main:4544 ] - [ INFO ]  用户登陆。。。
+2013-10-30 22:26:06,360 [ main:35 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:26:06 CST 2013]; root of context hierarchy
+2013-10-30 22:26:06,517 [ main:192 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:26:06,791 [ main:466 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:26:06,942 [ main:617 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\spring_config.xml]
+2013-10-30 22:26:07,617 [ main:1292 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:26:07,759 [ main:1434 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9be1041: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 22:26:09,036 [ main:2711 ] - [ INFO ]  Mapped URL path [/error/404] onto handler 'exceptionController'
+2013-10-30 22:26:09,037 [ main:2712 ] - [ INFO ]  Mapped URL path [/error/404.*] onto handler 'exceptionController'
+2013-10-30 22:26:09,038 [ main:2713 ] - [ INFO ]  Mapped URL path [/error/404/] onto handler 'exceptionController'
+2013-10-30 22:26:09,039 [ main:2714 ] - [ INFO ]  Mapped URL path [/error/500] onto handler 'exceptionController'
+2013-10-30 22:26:09,040 [ main:2715 ] - [ INFO ]  Mapped URL path [/error/500.*] onto handler 'exceptionController'
+2013-10-30 22:26:09,040 [ main:2715 ] - [ INFO ]  Mapped URL path [/error/500/] onto handler 'exceptionController'
+2013-10-30 22:26:09,041 [ main:2716 ] - [ INFO ]  Mapped URL path [/error/405] onto handler 'exceptionController'
+2013-10-30 22:26:09,042 [ main:2717 ] - [ INFO ]  Mapped URL path [/error/405.*] onto handler 'exceptionController'
+2013-10-30 22:26:09,043 [ main:2718 ] - [ INFO ]  Mapped URL path [/error/405/] onto handler 'exceptionController'
+2013-10-30 22:26:09,435 [ main:3110 ] - [ INFO ]  Mapped URL path [/loginIndex] onto handler 'userController'
+2013-10-30 22:26:09,436 [ main:3111 ] - [ INFO ]  Mapped URL path [/loginIndex.*] onto handler 'userController'
+2013-10-30 22:26:09,436 [ main:3111 ] - [ INFO ]  Mapped URL path [/loginIndex/] onto handler 'userController'
+2013-10-30 22:26:09,437 [ main:3112 ] - [ INFO ]  Mapped URL path [/testJson] onto handler 'userController'
+2013-10-30 22:26:09,437 [ main:3112 ] - [ INFO ]  Mapped URL path [/testJson.*] onto handler 'userController'
+2013-10-30 22:26:09,438 [ main:3113 ] - [ INFO ]  Mapped URL path [/testJson/] onto handler 'userController'
+2013-10-30 22:26:09,438 [ main:3113 ] - [ INFO ]  Mapped URL path [/login] onto handler 'userController'
+2013-10-30 22:26:09,439 [ main:3114 ] - [ INFO ]  Mapped URL path [/login.*] onto handler 'userController'
+2013-10-30 22:26:09,440 [ main:3115 ] - [ INFO ]  Mapped URL path [/login/] onto handler 'userController'
+2013-10-30 22:26:09,440 [ main:3115 ] - [ INFO ]  Mapped URL path [/reg] onto handler 'userController'
+2013-10-30 22:26:09,441 [ main:3116 ] - [ INFO ]  Mapped URL path [/reg.*] onto handler 'userController'
+2013-10-30 22:26:09,441 [ main:3116 ] - [ INFO ]  Mapped URL path [/reg/] onto handler 'userController'
+2013-10-30 22:26:09,703 [ main:3378 ] - [ INFO ]  Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2013-10-30 22:26:09,831 [ main:3506 ] - [ INFO ]  Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2013-10-30 22:26:09,862 [ main:3537 ] - [ INFO ]  Initializing EHCache CacheManager
+2013-10-30 22:26:10,443 [ main:4118 ] - [ INFO ]  Loading properties file from class path resource [freemarker.properties]
+2013-10-30 22:26:10,659 [ main:4334 ] - [ INFO ]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2013-10-30 22:26:10,945 [ main:4620 ] - [ INFO ]  user=张三pass=123456
+2013-10-30 22:26:10,946 [ main:4621 ] - [ INFO ]  用户登陆。。。
+2013-10-30 22:27:31,601 [ main:35 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 30 22:27:31 CST 2013]; root of context hierarchy
+2013-10-30 22:27:31,745 [ main:179 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 22:27:32,007 [ main:441 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 22:27:32,166 [ main:600 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\spring_config.xml]
+2013-10-30 22:27:32,800 [ main:1234 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 22:27:32,937 [ main:1371 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@19c8ef56: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 22:27:34,015 [ main:2449 ] - [ INFO ]  Mapped URL path [/error/404] onto handler 'exceptionController'
+2013-10-30 22:27:34,015 [ main:2449 ] - [ INFO ]  Mapped URL path [/error/404.*] onto handler 'exceptionController'
+2013-10-30 22:27:34,016 [ main:2450 ] - [ INFO ]  Mapped URL path [/error/404/] onto handler 'exceptionController'
+2013-10-30 22:27:34,017 [ main:2451 ] - [ INFO ]  Mapped URL path [/error/500] onto handler 'exceptionController'
+2013-10-30 22:27:34,018 [ main:2452 ] - [ INFO ]  Mapped URL path [/error/500.*] onto handler 'exceptionController'
+2013-10-30 22:27:34,019 [ main:2453 ] - [ INFO ]  Mapped URL path [/error/500/] onto handler 'exceptionController'
+2013-10-30 22:27:34,020 [ main:2454 ] - [ INFO ]  Mapped URL path [/error/405] onto handler 'exceptionController'
+2013-10-30 22:27:34,020 [ main:2454 ] - [ INFO ]  Mapped URL path [/error/405.*] onto handler 'exceptionController'
+2013-10-30 22:27:34,021 [ main:2455 ] - [ INFO ]  Mapped URL path [/error/405/] onto handler 'exceptionController'
+2013-10-30 22:27:34,326 [ main:2760 ] - [ INFO ]  Mapped URL path [/loginIndex] onto handler 'userController'
+2013-10-30 22:27:34,329 [ main:2763 ] - [ INFO ]  Mapped URL path [/loginIndex.*] onto handler 'userController'
+2013-10-30 22:27:34,329 [ main:2763 ] - [ INFO ]  Mapped URL path [/loginIndex/] onto handler 'userController'
+2013-10-30 22:27:34,330 [ main:2764 ] - [ INFO ]  Mapped URL path [/testJson] onto handler 'userController'
+2013-10-30 22:27:34,330 [ main:2764 ] - [ INFO ]  Mapped URL path [/testJson.*] onto handler 'userController'
+2013-10-30 22:27:34,331 [ main:2765 ] - [ INFO ]  Mapped URL path [/testJson/] onto handler 'userController'
+2013-10-30 22:27:34,331 [ main:2765 ] - [ INFO ]  Mapped URL path [/login] onto handler 'userController'
+2013-10-30 22:27:34,332 [ main:2766 ] - [ INFO ]  Mapped URL path [/login.*] onto handler 'userController'
+2013-10-30 22:27:34,333 [ main:2767 ] - [ INFO ]  Mapped URL path [/login/] onto handler 'userController'
+2013-10-30 22:27:34,334 [ main:2768 ] - [ INFO ]  Mapped URL path [/reg] onto handler 'userController'
+2013-10-30 22:27:34,334 [ main:2768 ] - [ INFO ]  Mapped URL path [/reg.*] onto handler 'userController'
+2013-10-30 22:27:34,335 [ main:2769 ] - [ INFO ]  Mapped URL path [/reg/] onto handler 'userController'
+2013-10-30 22:27:34,561 [ main:2995 ] - [ INFO ]  Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2013-10-30 22:27:34,690 [ main:3124 ] - [ INFO ]  Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2013-10-30 22:27:34,728 [ main:3162 ] - [ INFO ]  Initializing EHCache CacheManager
+2013-10-30 22:27:35,253 [ main:3687 ] - [ INFO ]  Loading properties file from class path resource [freemarker.properties]
+2013-10-30 22:27:35,445 [ main:3879 ] - [ INFO ]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2013-10-30 22:27:35,747 [ main:4181 ] - [ INFO ]  user=张三pass=123456
+2013-10-30 22:27:35,747 [ main:4181 ] - [ INFO ]  用户登陆。。。
+2013-10-30 23:02:41,925 [ main:318 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 23:02:42,141 [ main:534 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 23:02:42,273 [ main:666 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\spring_config.xml]
+2013-10-30 23:02:42,611 [ main:1004 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@bd10a5c: startup date [Wed Oct 30 23:02:42 CST 2013]; root of context hierarchy
+2013-10-30 23:02:42,851 [ main:1244 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 23:02:42,992 [ main:1385 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e4a9a7d: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 23:02:44,129 [ main:2522 ] - [ INFO ]  Mapped URL path [/error/404] onto handler 'exceptionController'
+2013-10-30 23:02:44,130 [ main:2523 ] - [ INFO ]  Mapped URL path [/error/404.*] onto handler 'exceptionController'
+2013-10-30 23:02:44,131 [ main:2524 ] - [ INFO ]  Mapped URL path [/error/404/] onto handler 'exceptionController'
+2013-10-30 23:02:44,132 [ main:2525 ] - [ INFO ]  Mapped URL path [/error/500] onto handler 'exceptionController'
+2013-10-30 23:02:44,133 [ main:2526 ] - [ INFO ]  Mapped URL path [/error/500.*] onto handler 'exceptionController'
+2013-10-30 23:02:44,134 [ main:2527 ] - [ INFO ]  Mapped URL path [/error/500/] onto handler 'exceptionController'
+2013-10-30 23:02:44,135 [ main:2528 ] - [ INFO ]  Mapped URL path [/error/405] onto handler 'exceptionController'
+2013-10-30 23:02:44,136 [ main:2529 ] - [ INFO ]  Mapped URL path [/error/405.*] onto handler 'exceptionController'
+2013-10-30 23:02:44,137 [ main:2530 ] - [ INFO ]  Mapped URL path [/error/405/] onto handler 'exceptionController'
+2013-10-30 23:02:44,403 [ main:2796 ] - [ INFO ]  Mapped URL path [/login] onto handler 'userController'
+2013-10-30 23:02:44,403 [ main:2796 ] - [ INFO ]  Mapped URL path [/login.*] onto handler 'userController'
+2013-10-30 23:02:44,404 [ main:2797 ] - [ INFO ]  Mapped URL path [/login/] onto handler 'userController'
+2013-10-30 23:02:44,406 [ main:2799 ] - [ INFO ]  Mapped URL path [/reg] onto handler 'userController'
+2013-10-30 23:02:44,406 [ main:2799 ] - [ INFO ]  Mapped URL path [/reg.*] onto handler 'userController'
+2013-10-30 23:02:44,407 [ main:2800 ] - [ INFO ]  Mapped URL path [/reg/] onto handler 'userController'
+2013-10-30 23:02:44,408 [ main:2801 ] - [ INFO ]  Mapped URL path [/loginIndex] onto handler 'userController'
+2013-10-30 23:02:44,409 [ main:2802 ] - [ INFO ]  Mapped URL path [/loginIndex.*] onto handler 'userController'
+2013-10-30 23:02:44,410 [ main:2803 ] - [ INFO ]  Mapped URL path [/loginIndex/] onto handler 'userController'
+2013-10-30 23:02:44,411 [ main:2804 ] - [ INFO ]  Mapped URL path [/testJson] onto handler 'userController'
+2013-10-30 23:02:44,411 [ main:2804 ] - [ INFO ]  Mapped URL path [/testJson.*] onto handler 'userController'
+2013-10-30 23:02:44,412 [ main:2805 ] - [ INFO ]  Mapped URL path [/testJson/] onto handler 'userController'
+2013-10-30 23:02:44,653 [ main:3046 ] - [ INFO ]  Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2013-10-30 23:02:44,765 [ main:3158 ] - [ INFO ]  Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2013-10-30 23:02:44,809 [ main:3202 ] - [ INFO ]  Initializing EHCache CacheManager
+2013-10-30 23:02:45,369 [ main:3762 ] - [ INFO ]  Loading properties file from class path resource [freemarker.properties]
+2013-10-30 23:02:45,564 [ main:3957 ] - [ INFO ]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2013-10-30 23:02:45,729 [ main:4122 ] - [ WARN ]  Unable to proxy method [public final void org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests.setApplicationContext(org.springframework.context.ApplicationContext)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2013-10-30 23:02:46,902 [ main:5295 ] - [ INFO ]  Began transaction (1): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@21495bb8]; rollback [true]
+2013-10-30 23:02:46,947 [ main:5340 ] - [ INFO ]  Rolled back transaction after test execution for test context [[TestContext@3598cb3d testClass = UserDaoTest, testInstance = com.bonc.GESysServer.dao.UserDaoTest@42472d48, testMethod = testUserDao@UserDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4eedf3f6 testClass = UserDaoTest, locations = '{classpath*:resources/db_*.xml, classpath*:resources/spring_*.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]]
+2013-10-30 23:02:46,955 [ Thread-3:5348 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@bd10a5c: startup date [Wed Oct 30 23:02:42 CST 2013]; root of context hierarchy
+2013-10-30 23:02:46,958 [ Thread-3:5351 ] - [ INFO ]  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e4a9a7d: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 23:02:46,959 [ Thread-3:5352 ] - [ INFO ]  Shutting down EHCache CacheManager
+2013-10-30 23:18:09,396 [ main:63 ] - [ INFO ]  @TestExecutionListeners is not present for class [class com.bonc.GESysServer.controller.UserControllerTest]: using defaults.
+2013-10-30 23:18:09,632 [ main:299 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_bonecp_config.xml]
+2013-10-30 23:18:09,849 [ main:516 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\db_config.xml]
+2013-10-30 23:18:09,977 [ main:644 ] - [ INFO ]  Loading XML bean definitions from file [E:\gx\workspace2\GESysServer\WebRoot\WEB-INF\classes\resources\spring_config.xml]
+2013-10-30 23:18:10,329 [ main:996 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@62c09554: startup date [Wed Oct 30 23:18:10 CST 2013]; root of context hierarchy
+2013-10-30 23:18:10,616 [ main:1283 ] - [ INFO ]  Loading properties file from class path resource [resources/datasource/dbConfig.properties]
+2013-10-30 23:18:10,752 [ main:1419 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b14b82b: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 23:18:11,833 [ main:2500 ] - [ INFO ]  Mapped URL path [/error/404] onto handler 'exceptionController'
+2013-10-30 23:18:11,834 [ main:2501 ] - [ INFO ]  Mapped URL path [/error/404.*] onto handler 'exceptionController'
+2013-10-30 23:18:11,835 [ main:2502 ] - [ INFO ]  Mapped URL path [/error/404/] onto handler 'exceptionController'
+2013-10-30 23:18:11,835 [ main:2502 ] - [ INFO ]  Mapped URL path [/error/500] onto handler 'exceptionController'
+2013-10-30 23:18:11,836 [ main:2503 ] - [ INFO ]  Mapped URL path [/error/500.*] onto handler 'exceptionController'
+2013-10-30 23:18:11,837 [ main:2504 ] - [ INFO ]  Mapped URL path [/error/500/] onto handler 'exceptionController'
+2013-10-30 23:18:11,838 [ main:2505 ] - [ INFO ]  Mapped URL path [/error/405] onto handler 'exceptionController'
+2013-10-30 23:18:11,839 [ main:2506 ] - [ INFO ]  Mapped URL path [/error/405.*] onto handler 'exceptionController'
+2013-10-30 23:18:11,840 [ main:2507 ] - [ INFO ]  Mapped URL path [/error/405/] onto handler 'exceptionController'
+2013-10-30 23:18:12,130 [ main:2797 ] - [ INFO ]  Mapped URL path [/login] onto handler 'userController'
+2013-10-30 23:18:12,131 [ main:2798 ] - [ INFO ]  Mapped URL path [/login.*] onto handler 'userController'
+2013-10-30 23:18:12,131 [ main:2798 ] - [ INFO ]  Mapped URL path [/login/] onto handler 'userController'
+2013-10-30 23:18:12,132 [ main:2799 ] - [ INFO ]  Mapped URL path [/loginIndex] onto handler 'userController'
+2013-10-30 23:18:12,133 [ main:2800 ] - [ INFO ]  Mapped URL path [/loginIndex.*] onto handler 'userController'
+2013-10-30 23:18:12,133 [ main:2800 ] - [ INFO ]  Mapped URL path [/loginIndex/] onto handler 'userController'
+2013-10-30 23:18:12,134 [ main:2801 ] - [ INFO ]  Mapped URL path [/testJson] onto handler 'userController'
+2013-10-30 23:18:12,135 [ main:2802 ] - [ INFO ]  Mapped URL path [/testJson.*] onto handler 'userController'
+2013-10-30 23:18:12,136 [ main:2803 ] - [ INFO ]  Mapped URL path [/testJson/] onto handler 'userController'
+2013-10-30 23:18:12,136 [ main:2803 ] - [ INFO ]  Mapped URL path [/reg] onto handler 'userController'
+2013-10-30 23:18:12,137 [ main:2804 ] - [ INFO ]  Mapped URL path [/reg.*] onto handler 'userController'
+2013-10-30 23:18:12,138 [ main:2805 ] - [ INFO ]  Mapped URL path [/reg/] onto handler 'userController'
+2013-10-30 23:18:12,349 [ main:3016 ] - [ INFO ]  Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2013-10-30 23:18:12,440 [ main:3107 ] - [ INFO ]  Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2013-10-30 23:18:12,468 [ main:3135 ] - [ INFO ]  Initializing EHCache CacheManager
+2013-10-30 23:18:13,026 [ main:3693 ] - [ INFO ]  Loading properties file from class path resource [freemarker.properties]
+2013-10-30 23:18:13,220 [ main:3887 ] - [ INFO ]  ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2013-10-30 23:18:13,359 [ main:4026 ] - [ INFO ]  user=nullpass=null
+2013-10-30 23:18:13,359 [ main:4026 ] - [ INFO ]  用户登陆。。。
+2013-10-30 23:18:14,564 [ Thread-3:5231 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@62c09554: startup date [Wed Oct 30 23:18:10 CST 2013]; root of context hierarchy
+2013-10-30 23:18:14,574 [ Thread-3:5241 ] - [ INFO ]  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b14b82b: defining beans [dataSource,dbConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jdbcTemplate,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,ehcacheAdvice,ehcachPointcuts,exceptionController,userController,baseDaoImpl,userDaoImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,freemarkerConfiguration,freemarkerConfig,org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,defaultCacheManager,ehCache,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2013-10-30 23:18:14,577 [ Thread-3:5244 ] - [ INFO ]  Shutting down EHCache CacheManager
