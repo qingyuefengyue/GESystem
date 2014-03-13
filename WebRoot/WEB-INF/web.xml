@@ -1,68 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
-	<display-name>GESysServer</display-name>
-	
-	<!-- 激活Tomcat的defaultServlet来处理静态文件 -->
-	<!-- 开启了spring对静态资源的管理 所以注释掉
-	<servlet-mapping>
-	    <servlet-name>default</servlet-name>
-	    <url-pattern>*.css</url-pattern>
-	    <url-pattern>*.js</url-pattern>
-	    <url-pattern>*.gif</url-pattern>
-	    <url-pattern>*.jpg</url-pattern>
-	    <url-pattern>*.png</url-pattern>
- 	</servlet-mapping -->
-  
-	<!-- 配置ServletContextListener 的监听 -->
-	<listener>
-	  <listener-class>com.bonc.GESysServer.init.GEContextListener</listener-class>
-	</listener>
-	
-	<!-- 配置编码过滤filer ↓-->
-	<filter>
-	  <filter-name>HttpEncodingFilter</filter-name>
-	  <filter-class>com.bonc.GESysServer.init.HttpEncodingFilter</filter-class>
-	</filter>
-	<filter-mapping>
-	  <filter-name>HttpEncodingFilter</filter-name>
-	  <url-pattern>/*</url-pattern>
-	</filter-mapping>
-	<!-- 配置编码过滤filer ↑-->
-	 
-	<!-- 配置spring mvc的dispatcherServlet ↓ -->
-	<servlet>
-	  <servlet-name>GEServlet</servlet-name>
-	  <servlet-class>com.bonc.GESysServer.init.GEDispatcherServlet</servlet-class>
-	  <init-param>
-	    <param-name>contextConfigLocation</param-name>
-	    <param-value>classpath*:resources/*.xml</param-value>
-	  </init-param>
-	  <load-on-startup>1</load-on-startup>
-	</servlet>
-	
-	<servlet-mapping>
-	  <servlet-name>GEServlet</servlet-name>
-	  <url-pattern>/</url-pattern>
-	</servlet-mapping>
-	<!-- 配置spring mvc的dispatcherServlet ↑ -->
-	
-	<!-- 对404，405，500异常处理配置 ↓ -->
-	<error-page>
-		<error-code>404</error-code>
-		<location>/error/404</location>
-	</error-page>
-	
-	<error-page>
-		<error-code>405</error-code>
-		<location>/error/404</location>
-	</error-page>
-
-	<error-page>
-		<error-code>500</error-code>
-		<location>/error/500</location>
-	</error-page>
-	
-	<session-config>
-		<session-timeout>30</session-timeout>
-	</session-config>
+  <display-name>GESysSystem</display-name>
+  <listener>
+    <listener-class>com.bonc.GESysServer.init.GEContextListener</listener-class>
+  </listener>
+  <filter>
+    <filter-name>HttpEncodingFilter</filter-name>
+    <filter-class>com.bonc.GESysServer.init.HttpEncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>HttpEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>GEServlet</servlet-name>
+    <servlet-class>com.bonc.GESysServer.init.GEDispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath*:resources/*.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GEServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error/404</location>
+  </error-page>
+  <error-page>
+    <error-code>405</error-code>
+    <location>/error/404</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/error/500</location>
+  </error-page>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
 </web-app>

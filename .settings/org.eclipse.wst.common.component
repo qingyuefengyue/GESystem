@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="GESysServer">
+    <wb-module deploy-name="GESysSystem">
         <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
-        <property name="context-root" value="GESysServer"/>
-        <property name="java-output-path" value="/GESysServer/WebRoot/classes"/>
+        <property name="java-output-path" value="/GESysSystem/WebRoot/classes"/>
+        <property name="context-root" value="GESystem"/>
     </wb-module>
 </project-modules>
