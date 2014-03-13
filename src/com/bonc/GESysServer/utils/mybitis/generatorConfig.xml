@@ -25,7 +25,7 @@
       <columnOverride column="manager_account" property="managerAccount" />
       <columnOverride column="role_id" property="roleId" />
     </table>
-    <table schema="gesysserver" tableName="sys_manger_info" domainObjectName="SysMangerInfo">
+    <table schema="gesysserver" tableName="sys_manager_info" domainObjectName="SysManagerInfo">
       <columnOverride column="manager_account" property="managerAccount" />
       <columnOverride column="manager_name" property="managerName" />
       <columnOverride column="manager_pwd" property="managerPwd" />

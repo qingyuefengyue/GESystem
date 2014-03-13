@@ -1,13 +1,21 @@
 package com.bonc.GESysServer.controller;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.servlet.ModelAndView;
 
-import com.bonc.GESysServer.pojo.SysManagerInfo;
+import com.bonc.GESysServer.mybitis.model.SysMangerInfo;
 import com.bonc.GESysServer.service.SysManagerService;
+import com.bonc.GESysServer.utils.mybitis.CommonUtil;
+import com.bonc.GESysServer.utils.view.JsonView;
 
 /**
  * @author xz
@@ -41,22 +49,43 @@ public class SysManagerController {
 	 * 中
 	 * 
 	 * */
-	public String sysLogin(@ModelAttribute("currentUser")SysManagerInfo sysManagerInfo,@ModelAttribute("SessionIdentifyingCode;")String SessionIdentifyingCode,String loginIdentifyCode){
+	public ModelAndView sysLogin(@ModelAttribute("currentUser") SysMangerInfo currentUser, SysManagerInfo sysManagerInfo,HttpServletResponse response){
 		/**
-		 * 将用户信息存放到session 中,
+		 * 登陆成功后,将用户信息存放到session 中,
 		 * */
-		// 异步验证 ①验证码 ② 用户名密码
-		if(loginIdentifyCode != null && SessionIdentifyingCode != null && SessionIdentifyingCode.equals(loginIdentifyCode)){
-			//通过密码和账号获得用户信息
-			sysManagerInfo = managerService.confirmLoginInfo(sysManagerInfo);
-			//为null则说明该用户不存在
-			if(sysManagerInfo != null){
-				return LOGINSUCCESS;
+		Map<String,Object> errorMap = new HashMap<String, Object>();
+		errorMap.put("flag", false);
+		//验证用户名和密码
+		if(sysManagerInfo != null){
+			String loginUser = sysManagerInfo.getManagerAccount();
+			String loginPWD = sysManagerInfo.getManagerPwd();
+			if(!CommonUtil.isEmpty(loginUser)){
+				//返回错误视图 用户名不能为空
+				errorMap.put("msg", "账号不能为空!");
+				return JsonView.Render(errorMap, response);
 			}
+			if(!CommonUtil.isEmpty(loginPWD)){
+				//返回错误视图 提示用户密码不能为空
+				errorMap.put("msg", "登陆密码不能空!");
+				return JsonView.Render(errorMap, response);
+			}
+			SysManagerInfo currentMangerinfo = managerService.confirmLoginInfo(sysManagerInfo);
+			if(currentMangerinfo != null){
+				//将用户信息存放到Session中
+				ModelAndView mv = new ModelAndView(LOGINSUCCESS);
+				currentUser = null;
+                return mv;//返回注册失败页面  
+			}else{
+				//返回错误视图 提示用户或密码错误
+				errorMap.put("msg", "账号或密码不正确，请重新输入!");
+				return JsonView.Render(errorMap,response);
+			}
+			
+		}else{
+			//返回错误json 提示用户的账户和密码不能为空
+			errorMap.put("msg", "登陆账号和密码不能为空!");
+			return JsonView.Render(errorMap, response);
 		}
-		return LOGINFAILED;
-		//controller之间的跳转
-//		return "redirect:/ toList ";
 	}
 	
 	/**
