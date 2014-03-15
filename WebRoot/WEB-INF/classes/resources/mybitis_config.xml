@@ -14,13 +14,13 @@
         <setting name="defaultStatementTimeout" value="25000"/>    
     </settings>  
        
-    <!-- 别名配置 -->  
+    <!-- 别名配置 
     <typeAliases>  
         <typeAlias alias="Menu" type="com.bonc.GESysServer.pojo.Menu" />
         <typeAlias alias="SysManagerInfo" type="com.bonc.GESysServer.pojo.SysManagerInfo" />
         <typeAlias alias="SysMenuInfo" type="com.bonc.GESysServer.pojo.SysMenuInfo" />
         <typeAlias alias="SysRole" type="com.bonc.GESysServer.pojo.SysRole" />
-    </typeAliases>  
+    </typeAliases -->  
        
     <!-- 指定映射器路径  已经再扫描包中配置，此处不需要-->  
     <!--

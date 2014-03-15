@@ -35,7 +35,44 @@
 		    
 		    
 		    $("#tt"). */
-		    	
+		    config.request = $.ajax({
+                url : url,
+                data : $.toJSON(def.data),
+                type : def.type,
+                dataType : def.dataType,
+                processData : true,
+                contentType : def.contentType,
+                success : function(data) {
+                    try {
+                        var json = data;
+                        if (typeof data === "String" || typeof data == "string") {
+                            json = (eval('(' + data + ')'));
+                        }
+                        if ('object' === typeof json) {
+                            if (json.Validation && json.Validation.Errors.length > 0) {
+
+                                $.each(json.Validation.Errors, function() {
+                                    // Error Code Check
+                                });
+
+                                // Error Callback
+                                if (typeof (def.errorCallback) == 'function') {
+                                    def.errorCallback(json);
+                                }
+                            } else {
+                                def.callback(data);
+                            }
+                        } else {
+                            def.callback(data);
+                        }
+                    } catch (e) {
+                        def.callback(data);
+                        // Hide Loading
+                    }
+                },
+                error : function(data) {
+                }
+            });
 	    </script>
 		<title>GES后台管理系统用户登陆</title>
 	</head>
@@ -79,19 +116,20 @@
             $('#ff').form('clear');
         }
     </script>
-		<form>
+		<form action="sysLogin">
 			<div>
 				<label>账号：</label>
-				<input type="text" name="" value=""/>
+				<input type="text" name="managerAccount" value=""/>
 			</div>
 			<div>
 				<label>密码：</label>
-				<input type="password" name="" value=""/>
+				<input type="password" name="managerPwd" value=""/>
 			</div>
 			<div>
 				<label>验证码：</label>
 				<input type="text" name="" value=""/>
 			</div>
+			<input type="submit" value="提交"/>
 			<div>
 				<a href="#">注册</a>
 				<a href="#">忘记密码</a>

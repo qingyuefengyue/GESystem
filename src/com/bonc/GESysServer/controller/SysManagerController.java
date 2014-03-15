@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bonc.GESysServer.mybitis.model.SysMangerInfo;
+import com.bonc.GESysServer.mybitis.model.SysManagerInfo;
 import com.bonc.GESysServer.service.SysManagerService;
 import com.bonc.GESysServer.utils.mybitis.CommonUtil;
 import com.bonc.GESysServer.utils.view.JsonView;
@@ -23,17 +23,17 @@ import com.bonc.GESysServer.utils.view.JsonView;
  * @desc 系统管理员controller层,用于处理系统管理员登陆，注册，修改密码等操作
  * */
 @Controller
-@SessionAttributes("currentUser")
+//@SessionAttributes("currentUser")
 @RequestMapping("/sysManager")
 public class SysManagerController {
 	
 	/**用户登陆成功 加载管理主页*/
-	private final static String LOGINSUCCESS = "sysControlIndex";
+	private final static String LOGINSUCCESS = "/manager/sysControlIndex";
 	/**用户登陆失败,跳转到登陆页面*/
-	private final static String LOGINFAILED = "managerLogin";
+	private final static String LOGINFAILED = "/manager/managerLogin";
 	
 	@Autowired
-	private SysManagerService managerService; 
+	private SysManagerService sysManagerService; 
 	
 	/**
 	 * 系统管理员登陆页面
@@ -41,7 +41,7 @@ public class SysManagerController {
 	@RequestMapping("/")
 	public String sysLoginIndex(){
 
-		return "managerLogin";
+		return "/manager/managerLogin";
 	}
 	
 	/**
@@ -49,10 +49,13 @@ public class SysManagerController {
 	 * 中
 	 * 
 	 * */
-	public ModelAndView sysLogin(@ModelAttribute("currentUser") SysMangerInfo currentUser, SysManagerInfo sysManagerInfo,HttpServletResponse response){
+//	 @ModelAttribute("currentUser")SysManagerInfo currentUser, 
+	@RequestMapping("/sysLogin")
+	public ModelAndView sysLogin(SysManagerInfo sysManagerInfo,HttpServletResponse response){
 		/**
 		 * 登陆成功后,将用户信息存放到session 中,
 		 * */
+		//http://blog.csdn.net/linchengzhi/article/details/7532378
 		Map<String,Object> errorMap = new HashMap<String, Object>();
 		errorMap.put("flag", false);
 		//验证用户名和密码
@@ -69,11 +72,11 @@ public class SysManagerController {
 				errorMap.put("msg", "登陆密码不能空!");
 				return JsonView.Render(errorMap, response);
 			}
-			SysManagerInfo currentMangerinfo = managerService.confirmLoginInfo(sysManagerInfo);
+			SysManagerInfo currentMangerinfo = sysManagerService.confirmLoginInfo(sysManagerInfo);
 			if(currentMangerinfo != null){
 				//将用户信息存放到Session中
 				ModelAndView mv = new ModelAndView(LOGINSUCCESS);
-				currentUser = null;
+				//currentUser = currentMangerinfo;
                 return mv;//返回注册失败页面  
 			}else{
 				//返回错误视图 提示用户或密码错误
@@ -87,7 +90,7 @@ public class SysManagerController {
 			return JsonView.Render(errorMap, response);
 		}
 	}
-	
+
 	/**
 	 * 用户修改密码
 	 * */
@@ -107,18 +110,18 @@ public class SysManagerController {
 	/**
 	 * 根据用户id 加载管理员授权菜单
 	 * */
-	public String authMenu(SysManagerInfo sysManagerInfo){
-		/** 管理员账号*/
-		managerService.getAuthMenuByUserCount(sysManagerInfo);
-		
-		
-		return "";
-	}
-	/**
-	 *  忘记密码 ，获取新的登陆密码
-	 *  
-	 * */
-	public String forgetPwd(SysManagerInfo sysManagerInfo){
-		return null;
-	}
+//	public String authMenu(SysManagerInfo sysManagerInfo){
+//		/** 管理员账号*/
+//		managerService.getAuthMenuByUserCount(sysManagerInfo);
+//		
+//		
+//		return "";
+//	}
+//	/**
+//	 *  忘记密码 ，获取新的登陆密码
+//	 *  
+//	 * */
+//	public String forgetPwd(SysManagerInfo sysManagerInfo){
+//		return null;
+//	}
 }

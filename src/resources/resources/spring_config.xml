@@ -58,7 +58,7 @@
 	
 	<!--对模型视图名称的解析 ↓-->
 	<!-- 配置jsp viewResolver ↓ p:allowSessionOverride="true" 覆盖session-->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:allowSessionOverride="true" >
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
          <!-- 如果使用jstl的话，配置下面的属性  p:prefix="/jsp/" p:suffix=".jsp"-->
         <property name="prefix" value="/jsp/"/>
         <property name="suffix" value=".jsp"/>

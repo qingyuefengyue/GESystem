@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
 <generatorConfiguration >
-	<classPathEntry location="E:/gx/mywork/GESysServer/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" />
+	<classPathEntry location="F:/github/GESystem/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" />
   <context id="GESysServer" >
   	
     <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/gesysServer" userId="test" password="123456" />
@@ -33,7 +33,7 @@
       <columnOverride column="manager_email" property="managerEmail" />
       <columnOverride column="create_time" property="createTime" javaType="java.sql.Timestamp" />
       <columnOverride column="status" property="status" />
-      <columnOverride column="last_login_time" property="last_login_time" javaType="java.sql.Timestamp" />
+      <columnOverride column="last_login_time" property="lastLoginTime" javaType="java.sql.Timestamp" />
     </table>
     <table schema="gesysserver" tableName="sys_menu_info" domainObjectName="SysMenuInfo">
       <columnOverride column="menu_id" property="menuId" />

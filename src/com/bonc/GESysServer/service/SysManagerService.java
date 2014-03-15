@@ -2,8 +2,8 @@ package com.bonc.GESysServer.service;
 
 import java.util.List;
 
-import com.bonc.GESysServer.pojo.SysManagerInfo;
-import com.bonc.GESysServer.pojo.SysMenuInfo;
+import com.bonc.GESysServer.mybitis.model.SysManagerInfo;
+import com.bonc.GESysServer.mybitis.model.SysMenuInfo;
 
 public interface SysManagerService {
 	

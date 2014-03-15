@@ -26,7 +26,7 @@ public class MybitisGenerator {
 		// File configFile = new
 		// File(findFile("generator/AntERPTableConfig.xml"));
 		File configFile = new File(
-				"E:/gx/mywork/GESysServer/src/com/bonc/GESysServer/utils/mybitis/generatorConfig.xml");
+				"F:/github/GESystem/src/com/bonc/GESysServer/utils/mybitis/generatorConfig.xml");
 
 		System.out.println(configFile.getAbsolutePath());
 		try {

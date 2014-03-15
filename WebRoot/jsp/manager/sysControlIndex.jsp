@@ -42,5 +42,6 @@
 		<title>GES后台管理系统用户登陆</title>
 	</head>
 	<body>
+	<div>登陆成功</div>
 	<ul id="tt" class="easyui-tree"></ul>
 </html>
